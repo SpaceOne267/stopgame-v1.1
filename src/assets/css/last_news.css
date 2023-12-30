@@ -1,0 +1,84 @@
+.last_news {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  background: var(--index-news-bg);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.last_news .articles {
+  padding: 20px 0;
+}
+
+.last_news .articles .article {
+  display: inline-block;
+  width: 50%;
+  max-height: 155px;
+  border-bottom: 1px solid var(--index-news-article-border-bg);
+  margin-top: 30px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.last_news .articles .article:hover .title {
+  opacity: 0.8;
+}
+.last_news .articles .article img {
+  display: inline-block;
+  float: left;
+  width: 126px;
+  aspect-ratio: auto 126 / 100;
+  height: 100px;
+  border-radius: 16px;
+}
+
+.last_news .articles .article .content {
+  display: inline-block;
+  width: 70%;
+  padding-left: 10px;
+}
+
+.last_news .articles .article .content .info {
+  display: block;
+  width: 100%;
+}
+
+.last_news .articles .article .content .info > span {
+  display: block;
+  float: left;
+  color: var(--gray-2);
+  margin-left: 10px;
+  padding: 4px 0;
+  font: 500 14px var(--roboto);
+}
+
+.last_news .articles .article .content .info > span svg {
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+
+.last_news .articles .article .content .info .comments {
+  margin-left: 10px;
+}
+
+.last_news .articles .article .content .info .comments svg {
+  margin-right: 4px;
+}
+
+.last_news .articles .article .content .title {
+  font: 500 16px var(--rubik);
+  color: var(--color);
+  float: left;
+  padding: 5px;
+  text-wrap: balance;
+  overflow: hidden;
+}
+
+/* more_btn */
+.more_btn {
+  padding: 10px;
+  font: 500 14px var(--roboto);
+  color: var(--color);
+}

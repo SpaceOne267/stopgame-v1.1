@@ -1,0 +1,35 @@
+.backdrop_bg {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: var(--dark-1);
+  z-index: 0;
+}
+.main_section_nf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  position: relative;
+}
+.main_section_nf .not {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.main_section_nf .not h1 {
+  font: 600 120px var(--rubik);
+  color: var(--fg-color);
+  text-align: center;
+}
+.main_section_nf .not span {
+  font: 400 16px var(--roboto);
+  color: var(--gray-2);
+  text-align: center;
+}
+.main_section_nf .not .btn {
+  margin-top: 20px;
+  width: auto;
+}

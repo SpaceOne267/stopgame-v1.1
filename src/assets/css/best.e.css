@@ -1,0 +1,124 @@
+._best {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--dark-1);
+  margin: 24px 0;
+  border-radius: 16px;
+  padding: 22px;
+}
+._best .title {
+  color: var(--white);
+  font: 600 20px var(--roboto);
+  margin-bottom: 24px;
+}
+._best .control_btns {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 12px 20px;
+}
+._best .control_btns button {
+  display: flex;
+  float: left;
+  padding: 8px;
+  background: var(--dark-2);
+  border-radius: 50%;
+  margin: 8px 5px;
+}
+
+._best .cards {
+  position: relative;
+}
+._best .cards .card .img,
+._best .cards .card .img img,
+._best .cards .card .content,
+._best .cards .card .content .pubdate,
+._best .cards .card .content .title,
+._best .cards .card .content .info {
+  display: block;
+  width: 100%;
+}
+._best .cards .card {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  border-radius: 8px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+._best .cards .card > * {
+  margin-bottom: 16px;
+}
+._best .cards .card .img {
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  z-index: 5;
+  overflow: hidden;
+}
+._best .cards .card .img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, transparent, #0005);
+  z-index: 10;
+}
+._best .cards .card .img img {
+  aspect-ratio: 263/180;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+._best .cards .card .content .pubdate {
+  color: var(--gray-2);
+  text-transform: uppercase;
+  font: 400 14px var(--roboto);
+  margin-bottom: 16px;
+}
+._best .cards .card .content .title {
+  color: var(--white);
+  font: 600 16px var(--roboto);
+  text-wrap: balance;
+  max-height: 70px;
+  overflow: hidden;
+}
+._best .cards .card .info {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+}
+._best .cards .card .info * {
+  display: flex;
+  color: var(--gray-2);
+  font: 400 14px var(--roboto);
+}
+._best .cards .card .info .author {
+  float: left;
+}
+._best .cards .card .info .options {
+  float: right;
+}
+._best .cards .card .info .options svg {
+  margin-right: 5px;
+}
+/* category */
+._best .cards .card .category {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: var(--white);
+  font: 500 14px var(--roboto);
+  z-index: 7;
+}

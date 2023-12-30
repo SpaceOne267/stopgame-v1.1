@@ -1,0 +1,19 @@
+[
+  {
+    "id": "0",
+    "category": "news",
+    "author": {
+      "id": "ID",
+      "name": "Author Name"
+    },
+    "title": "title",
+    "picture": "",
+    "images": [],
+    "texts": [],
+    "pubdate": "13.12.2023",
+    "comments_count": "0",
+    "views_count": "0",
+    "bookmarks_count": "0",
+    "order": ["text", "title", "img", "video"]
+  }
+]

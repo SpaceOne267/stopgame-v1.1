@@ -1,0 +1,8 @@
+/* default Media */
+@media screen and (max-width: 1280px) {
+  body,
+  html,
+  .container {
+    min-width: 1280px !important;
+  }
+}
